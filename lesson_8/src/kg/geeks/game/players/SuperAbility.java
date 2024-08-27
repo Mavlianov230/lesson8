@@ -7,6 +7,7 @@ public enum SuperAbility {
     BLOCK_DAMAGE_AND_REVERT,
     SAITAMA_WRATH,
     FINNAL_SACRIFICE,
-    CODE_BREACH
+    CODE_BREACH,
+    DICE_STRIKE
 
 }

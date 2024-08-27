@@ -23,8 +23,9 @@ public class RPG_Game {
         King king = new King("Maximus", 200, 0);
         Kamikaze kamikaze = new Kamikaze("Katsumoto", 195,0);
         Hacker hacker = new Hacker("Neo", 150, 0);
+        Ludoman ludoman = new Ludoman("Lui", 200, 1);
 
-        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, king, kamikaze,hacker};
+        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, king, kamikaze,hacker, ludoman};
 
         printStatistics(boss, heroes);
         while (!isGameOver(boss, heroes)) {
